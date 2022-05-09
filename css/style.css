@@ -449,6 +449,12 @@ ul{
     fill: var(--fillbackground-color);
     
 }
+.modal-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
 .check-link{
     font-weight: 400;
@@ -458,12 +464,7 @@ ul{
     text-decoration-line: underline;
     color: var(--active-color);
 }
-.modal-checkbox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-}
+
 .send-btn{
     display: flex;
     justify-content: center;
